@@ -1,0 +1,137 @@
+body{
+   overflow-x: hidden;
+}
+
+.serviceWrapper{
+    position: relative;
+    top:70px;
+    width: 100%;
+    margin: 0;
+    background-color: #FBF8F8;
+}
+.service-content{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.tabList{
+    width: 970px;
+}
+/* title start */
+.service-title{
+    line-height: 85px;
+    width: 1200px;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+/* title end */
+/* right start */
+.service-right{
+    width: 230px;
+    height: 600px;
+    position: absolute;
+    top: 85px;
+    right: 0;
+
+}
+.service-right .seller-top{
+    display: block;
+    width: 230px;
+    height: 290px;
+}
+.service-right .seller-top>img{
+    width: 230px;
+    height: 290px;
+}
+.service-right .seller-foot{
+    margin: 10px 0;
+    display: block;
+    width: 230px;
+    height: 290px;
+}
+.service-right .seller-foot span{
+    display: block;
+    width: 230px;
+    height: 290px;
+    background-size: 230px 290px;
+    background: url("../img/serviceProvider/provider-border.jpg") no-repeat;
+    text-align: center;
+}
+.service-right .seller-foot img{
+    width: 130px;
+    height: 130px;
+    margin-top: 50px;
+}
+/* right end */
+
+/* moreCard start */
+.moreCard{
+    width: 970px;
+}
+.cardList{
+    width: 970px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.cardList>a{
+    flex: 1;
+    height: 300px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    background-color: #fff;
+}
+.cardList>a:hover{
+    box-shadow: 5px 5px 2px #999;
+}
+.everyCard{
+    padding-top: 12px;
+    padding-left: 12px;
+    box-sizing: border-box;
+}
+.everyCard>img{
+    width: 210px;
+    height: 210px;
+}
+.everyCard>.p-top{
+    margin-top: 15px;
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #333;
+}
+.everyCard>.p-top>img{
+    margin-bottom: 5px;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+.everyCard>.p-foot{
+   font-size: 12px;
+    margin-right: 12px;
+    color: #929292;
+    line-height: 26px;
+}
+.everyCard>.p-foot i{
+    float: right;
+    font-style: normal;
+}
+/* moreCard end */
+
+/* clickMore start */
+.clickMore{
+    width: 970px;
+    text-align: center;
+}
+.clickMore>button{
+    width: 200px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 50px auto 100px;
+    font-size: 16px;
+    color: #b1b1b1;
+    cursor:pointer;
+}
+
+/* clickMore end */

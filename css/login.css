@@ -6,12 +6,15 @@ body{
 .wrapper{
     width: 100%;
 }
+/* login start */
 .login{
+    display: none;
     width: 330px;
-    height: 325px;
+    /*height: 325px;*/
     border: 1px solid #ccc;
     margin: 0 auto;
     padding: 15px;
+    box-sizing: border-box;
     border-radius: 10px;
 }
 .login .logo{
@@ -23,7 +26,7 @@ body{
     width: 100%;
     height: 100%;
 }
-.login .input{
+.login .form-group{
     width: 300px;
     height: 110px;
     /*border: 1px solid #ccc;*/
@@ -37,3 +40,168 @@ body{
 .form-control{
     height: 55px;
 }
+.btn{
+    width: 300px;
+    height: 50px;
+}
+.login-footer{
+    margin-top: 12px;
+    overflow: hidden;
+}
+.login-footer>.forget-password{
+    float: left;
+    margin-left: 20px;
+}
+.login-footer>.register{
+    float: right;
+    margin-right: 20px;
+}
+.showPrompt{
+    /*display: none;*/
+    background-color: #F2DEDE;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.showPrompt .alert{
+    color: #a94442;
+    border-color:#ebccd1 ;
+    background-color: #f2dede;
+    padding-right: 35px;
+}
+.showPrompt .glyphicon{
+    top:-54px;
+    right: -270px;
+    color: #E3BEBE;
+}
+.showPrompt .glyphicon:hover{
+    color: #666;
+}
+
+/* login end */
+
+/* register start */
+.wrapper>.register{
+    display: none;
+    width: 330px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.register .logo{
+    margin-top: 5px;
+    width: 295px;
+    height: 55px;
+}
+.register .logo img{
+    width: 100%;
+    height: 100%;
+}
+.register .phoneNumber{
+    margin: 20px 0;
+    width: 300px;
+    height: 50px;
+}
+.register .verify{
+    width: 300px;
+    height: 100px;
+    border: 1px solid #ccc;
+}
+.verify img{
+    width: 200px;
+    height: 50px;
+    border-right: 1px solid #ccc;
+}
+.verify .form-control{
+    width: 200px;
+    height: 50px;
+    border-radius: 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.verify button{
+    width: 99px;
+    height: 100px;
+    position: relative;
+    top:-100px;
+    left:200px;
+    border: 1px solid #ccc;
+}
+.register .newPassword{
+    width: 300px;
+    height: 100px;
+    margin: 20px 0;
+}
+.register .checkbox{
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.register .registerFoot{
+    margin: 24px auto;
+    text-align: center;
+}
+/* register end */
+
+/* forgetPassword start */
+.wrapper>.forgetPassword{
+    /*display: none;*/
+    width: 330px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.forgetPassword .logo{
+    margin-top: 5px;
+    width: 295px;
+    height: 55px;
+}
+.forgetPassword .logo img{
+    width: 100%;
+    height: 100%;
+}
+.forgetPassword .phoneNumber{
+    margin: 20px 0;
+    width: 300px;
+    height: 50px;
+}
+.forgetPassword .verify{
+    width: 300px;
+    height: 100px;
+    border: 1px solid #ccc;
+}
+.verify img{
+    width: 200px;
+    height: 50px;
+    border-right: 1px solid #ccc;
+}
+.verify .form-control{
+    width: 200px;
+    height: 50px;
+    border-radius: 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.verify button{
+    width: 99px;
+    height: 100px;
+    position: relative;
+    top:-100px;
+    left:200px;
+    border: 1px solid #ccc;
+}
+.forgetPassword .newPassword{
+    width: 300px;
+    height: 100px;
+    margin: 20px 0;
+}
+.forgetPassword .registerFoot{
+    margin: 24px auto;
+    text-align: center;
+}
+
+/* forgetPassword end */
